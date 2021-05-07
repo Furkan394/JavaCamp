@@ -12,13 +12,13 @@ public class CustomerManager {
 	
 		System.out.println("Müþteri eklendi " + customer.getFirstName());
 		
-		Utils.runLoggers(loggers, customer.getFirstName()); //static çalýþtý
+		Utils.runLoggers(loggers, customer.getFirstName()); 
 	}
 	
 	public void delete(Customer customer) {
 		System.out.println("Müþteri silindi " + customer.getFirstName());
 		
-		Utils.runLoggers(loggers, customer.getFirstName()); //static çalýþtý
+		Utils.runLoggers(loggers, customer.getFirstName()); 
 	}
 	
 }

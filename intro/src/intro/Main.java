@@ -39,7 +39,7 @@ public class Main {
 		String[] krediler = { "Hýzlý Kredi", "Mutlu Emekli Kredisi", "Konut Kredisi", "Çiftçi Kredisi", "Msb Kredisi",
 				"Meb Kredisi","Kültür Bakanlýðý Kredisi"};
 		
-		//foreach
+		
 		for(String kredi : krediler) {
 			System.out.println(kredi);
 		}

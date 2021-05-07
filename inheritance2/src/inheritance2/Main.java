@@ -6,8 +6,8 @@ public class Main {
 		
 		
 		CustomerManager customerManager = new CustomerManager();
-		customerManager.add(new DatabaseLogger()); //INHERITANCE EN ÖNEMLÝ ÖZELLÝKLERDEN
-		customerManager.add(new FileLogger()); //INHERITANCE EN ÖNEMLÝ ÖZELLÝKLERDEN
+		customerManager.add(new DatabaseLogger()); 
+		customerManager.add(new FileLogger()); 
 
 	}
 
